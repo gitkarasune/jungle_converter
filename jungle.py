@@ -24,7 +24,7 @@ def translation(words, language):
     return output
 
 def main():
-    words = input("Input words: ")
+    words = input('Input words: ')
     language = get_language()
     translated_words = translation(words, language)
     print("Translated words:", translated_words)
